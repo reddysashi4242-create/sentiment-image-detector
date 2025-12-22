@@ -6,7 +6,8 @@ from PIL import Image
 # ---------------------------
 # Load the pre-trained model
 # ---------------------------
-model = load_model("model.h5")  # Make sure this file is in the same directory
+model = model = load_model("model.h5", compile=False)
+  # Make sure this file is in the same directory
 
 # ---------------------------
 # Emotion labels
@@ -18,9 +19,9 @@ emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutr
 # ---------------------------
 def preprocess_image(image_path):
     img = Image.open(image_path).convert('L')     # Grayscale
-    img = img.resize((48, 48))                    # Resize to 48x48
+    img = img.resize((64, 64))                    # Resize to 48x48
     img_array = np.array(img) / 255.0             # Normalize
-    img_array = img_array.reshape(1, 48, 48, 1)   # Add batch and channel dims
+    img_array = img_array.reshape(1, 64, 64, 1)   # Add batch and channel dims
     return img_array
 
 # ---------------------------
