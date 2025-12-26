@@ -71,6 +71,6 @@ Do **not** push large files (e.g. `.h5`, `venv`) directly to GitHub. Use [Git LF
 
 ## 👨‍💻 Author
 
-**Dinesh Reddy - CSE(AI)**  
-*Annamacharya Institute of Technology and Sciences, Rajampet*  
-📧 dineshreddy3028@gmail.com  
+*Sashi kumar Reddy - CSE(AI&ML)**  
+*Sri Venkateswara College of Engineering and Technology, Chittoor*  
+📧 reddysashi4242@gmail.com  
