@@ -44,4 +44,4 @@ It is placed in the correct folder.
 You are using Python 3.10 or compatible.
 
 👨‍💻 Author
-Dinesh B – CSE(AI), Annamacharya Institute of Technology and Sciences, Rajampet
+Sashi kumar M-Cse(ai & ml)-Sri venkateswara engineering college & technology-chittor
